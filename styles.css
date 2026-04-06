@@ -26,7 +26,7 @@ height: 460px;
 .encabezado h1 {
     color: #000;
     font-family: "League Script", italic;
-    font-size: 128px;
+    font-size: 96px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -40,6 +40,13 @@ height: 214px;
   display: flex;
   align-items: center;
   justify-content: center;
+
+  color: #000;
+font-family: "Lao Sans Pro", sans-serif;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 
 .menu {
@@ -117,22 +124,37 @@ line-height: normal;
 }
 
 .personaje {
+    margin-left: 50px;
   margin-top: 20px;
-  text-align: center;
+  text-align: left;
+  align-items: left;
+  align-self: left;
 }
 
 .personaje img {
+ margin-left: 50px;
   max-width: 220px;
   width: 100%;
 }
 
 .mensaje {
-  margin: 10px auto 0;
-  max-width: 320px;
+
+
   background: #d9d9d9;
   padding: 10px;
   border-radius: 8px;
   font-size: 12px;
+  width: 754px;
+height: 159px;
+aspect-ratio: 607/128;
+text-align: left;
+  align-items: left;
+  align-self: left;
+
+font-family: "Lao Sans Pro", sans-serif;
+font-size: 24px;
+
+
 }
 
 .cta {
@@ -148,13 +170,24 @@ line-height: normal;
   background: #ddd;
   cursor: pointer;
 }
+.columna-derecha {
+    
+  margin-left: 50px;
+}
 
 .columna-derecha h3 {
   display: inline-block;
-  margin-bottom: 15px;
+  margin-bottom: 40px;
   background: #ddd;
-  padding: 5px 14px;
+  padding: 15px;
   border-radius: 8px;
+
+  color: #000;
+font-family: "Lao Sans Pro", sans-serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 
 .galeria {
@@ -164,10 +197,12 @@ line-height: normal;
 }
 
 .card-img {
-  min-height: 150px;
+  width: 669px;
+height: 337px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 60px;
 }
 
 .card-img img {
