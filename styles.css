@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+}
+
+.pagina {
+  margin: 20px auto;
+  background: #fff;
+}
+
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 100px;
+  background: #B5B5B5;
+height: 460px;
+}
+
+.encabezado h1 {
+    color: #000;
+    font-family: "League Script", italic;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.logo {
+  width: 214px;
+height: 214px;
+  border-radius: 50%;
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+    
+  justify-content: space-around;
+  gap: 10px;
+  height: 112px;
+  padding: 10px;
+  background: #efefef;
+  margin-bottom: 30px;
+}
+
+.menu a {
+
+align-self: center;
+  text-decoration: none;
+  background: #D9D9D9;
+  padding: 6px 14px;
+  border-radius: 15px;
+  color: #333;
+  width: 192px;
+height: 59px;
+text-align: center;
+
+  font-size: 14px;
+  color: #000;
+  font-family: "Lao Sans Pro", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.contenido {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 30px;
+  padding: 20px;
+}
+
+.card,
+.card-img,
+.info-contacto {
+  background: #d9d9d9;
+  border-radius: 8px;
+}
+
+.quienes {
+  padding: 20px;
+  min-height: 180px;
+  width: 752px;
+height: 466px;
+margin-left: 50px;
+}
+.quienes h2{
+    color: #000;
+font-family: "Lao Sans Pro", sans-serif;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+.texto-placeholder {
+    margin-top: 80px;
+  margin: 50px;
+font-family: "Lao Sans Pro", sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.personaje {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.personaje img {
+  max-width: 220px;
+  width: 100%;
+}
+
+.mensaje {
+  margin: 10px auto 0;
+  max-width: 320px;
+  background: #d9d9d9;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+.cta {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.cta button {
+  padding: 10px 20px;
+  font-size: 24px;
+  border: none;
+  border-radius: 8px;
+  background: #ddd;
+  cursor: pointer;
+}
+
+.columna-derecha h3 {
+  display: inline-block;
+  margin-bottom: 15px;
+  background: #ddd;
+  padding: 5px 14px;
+  border-radius: 8px;
+}
+
+.galeria {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card-img {
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-img img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.footer {
+  background: #e5e5e5;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.footer h2 {
+  margin-bottom: 10px;
+}
+
+.info-contacto {
+  height: 50px;
+}
+
+@media (max-width: 768px) {
+  .contenido {
+    grid-template-columns: 1fr;
+  }
+
+  .menu {
+    flex-wrap: wrap;
+  }
+
+  .encabezado {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
